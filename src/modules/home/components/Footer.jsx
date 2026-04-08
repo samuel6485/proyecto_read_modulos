@@ -6,45 +6,45 @@ export const Footer = () => {
     <footer className="ecomoda-footer">
       <div className="footer-container">
         <div className="footer-brand">
-          <h2 className="logo-text">ECO<span>MODA</span></h2>
-          <p>La elegancia no es cuestión de belleza, es cuestión de estilo y registros perfectos.</p>
+          <h2 className="logo-text">DERMO<span>BEAUTY</span></h2>
+          <p>La belleza no es cuestión de apariencia, es cuestión de cuidado y productos de calidad.</p>
         </div>
 
         <div className="footer-links">
           <div className="link-group">
-            <h4>Secciones</h4>
+            <h4>Categorías</h4>
             <ul>
-              <li><a href="#cuartel">El Cuartel</a></li>
-              <li><a href="#presidencia">Presidencia</a></li>
-              <li><a href="#taller">El Taller</a></li>
+              <li><a href="#facial">Cuidado Facial</a></li>
+              <li><a href="#corporal">Cuidado Corporal</a></li>
+              <li><a href="#cabello">Cuidado del Cabello</a></li>
             </ul>
           </div>
           <div className="link-group">
             <h4>Recursos</h4>
             <ul>
-              <li><a href="#diario">Diario de Betty</a></li>
-              <li><a href="#finanzas">6 Semestres de Finanzas</a></li>
-              <li><a href="#chismes">Archivo de Chismes</a></li>
+              <li><a href="#consejos">Consejos de Belleza</a></li>
+              <li><a href="#ingredientes">Ingredientes Naturales</a></li>
+              <li><a href="#rutinas">Rutinas Diarias</a></li>
             </ul>
           </div>
         </div>
 
         <div className="footer-newsletter">
-          <h4>Únete al Club de Fans</h4>
-          <p>Recibe las últimas noticias de la Terramoza.</p>
+          <h4>Suscríbete a Nuestros Consejos</h4>
+          <p>Recibe las últimas tendencias en cuidado de la piel.</p>
           <div className="input-group">
-            <input type="email" placeholder="tu-correo@ecomoda.com" />
+            <input type="email" placeholder="tu-correo@dermobeauty.com" />
             <button>OK</button>
           </div>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; 2026 Ecomoda Fans System. "Se dice de mí..."</p>
+        <p>&copy; 2026 DermoBeauty. "Belleza que se siente."</p>
         <div className="social-icons">
-          <span>👓</span>
-          <span>👠</span>
-          <span>💼</span>
+          <span>🧴</span>
+          <span>💄</span>
+          <span>🌸</span>
         </div>
       </div>
     </footer>

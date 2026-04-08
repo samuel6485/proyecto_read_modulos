@@ -7,7 +7,7 @@ const Navbar = ({ username, onLogout }) => {
         <nav className="navbar">
             <div className="navbar-brand">
                 <img src={Logo} alt="Logo" className="navbar-logo" />
-                <span className="navbar-title">Dashboard</span>
+                <span className="navbar-title">Perfil de Belleza</span>
             </div>
             <div className="navbar-user">
                 <span className="navbar-welcome">Hola, <strong>{username}</strong></span>
